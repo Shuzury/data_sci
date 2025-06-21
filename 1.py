@@ -6,12 +6,14 @@ import numpy as np
 # b=np.array([[1,2,3],[4,5,6]])
 # print(b)
 
-a=np.full((2,7),7)
-print(a)
+# a=np.full((2,7),7)
+# print(a)
 
-b=np.eye(7)
-print(b)
+# b=np.eye(7)
+# print(b)
 
-c=np.random.
+c=np.random.rand(7)
+print(c)
 
-
+d=np.random.rand(2,2)
+print(d)

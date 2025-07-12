@@ -1,0 +1,1 @@
+# uske liye maine copy mey notes banaya tha , dekh lena 

@@ -1,0 +1,13 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Reading data (from pandas/first.ipynb)
+df = pd.read_csv("data.csv", encoding="latin1")
+df = pd.read_excel("data.xlsx")
+df = pd.read_json("data.json")
+
+# Saving data (from pandas/0pandas.ipynb)
+df.to_csv("output.csv", index=False)
+df.to_excel("output.xlsx", index=False)
+df.to_json("output.json", orient='records')

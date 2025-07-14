@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd 
 
-df=pd.read_csv("kaggle/one/one.csv")
+df=pd.read_csv("panda_numpy_pract/one/one.csv")
 '''1. Basic Data Exploration'''
 # print(df.info())
 # print(df.head())
